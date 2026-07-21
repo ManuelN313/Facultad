@@ -1,0 +1,68 @@
+Respuestas a las Preguntas del Proyecto
+
+1)
+x + y + 1 ---> 11 | 12  
+z * z + y * 45 - 15 * x ---> 55 | 499
+y - 2 == (x * 3 + 1) % 5 ---> 0 | 0
+y / 2 * x ---> 7 | 5
+y < x * z ---> 1 | 0
+
+En la ultima expresion los tipos de los resultados son Bool.
+
+2)
+Este es un estado inicial que cumple con que se pide:
+(x -> 16, y -> -16, z -> 32, b -> 0, w -> 0)
+
+3a)
+
+1a)
+i) Entrada: x -> 3  Salida: x -> 5  
+ii) Entrada: x -> -3  Salida: x -> 5
+iii) Entrada: x -> 5  Salida: x -> 5
+
+1b)
+i) Entrada: (x -> 3, y -> 2)  Salida: (x -> 5, y -> 4) 
+ii) Entrada: (x -> 9, y -> -6)  Salida: (x -> 3, y -> -12) 
+iii) Entrada: (x -> 8, y -> -8)  Salida: (x -> 0, y -> -16) 
+
+1c)
+i) Entrada: (x -> 3, y -> 2)  Salida: (x -> 7, y -> 4) 
+ii) Entrada: (x -> 9, y -> -6)  Salida: (x -> -3, y -> -12) 
+iii) Entrada: (x -> 8, y -> -8)  Salida: (x -> -8, y -> -16) 
+
+4b)
+Estado Inicial 0: (x -> 5, y -> 4, z -> 8, m -> 0)
+Estado Intermedio 1: (x -> 5, y -> 4, z -> 8, m -> 4)
+Estado Final 2: (x -> 5, y -> 4, z -> 8, m -> 4)
+
+Este programa devuelve el menor entre 3 numeros y la variable m es el minimo.
+
+5)
+
+b1)
+Estado 0: (x -> 13, y -> 3, i -> 0)
+Estado 1.0 : (x -> 10, y -> 3, i -> 1) 
+Estado 1.1 : (x -> 7, y -> 3, i -> 2) 
+Estado 1.2 : (x -> 4, y -> 3, i -> 3)
+Estado 1.3 : (x -> 1, y -> 3, i -> 4)
+
+Este programa es el Algoritmo de la Division donde X es el dividendo (al comienzo del programa), y es el divisor, i es el cociente y x se convierte en el resto al final de la ejecucion.
+
+b2)
+Estado 0: (x -> 5, i -> 0, res -> False)
+Estado 1.0: (x -> 5, i -> 3, res -> True)
+Estado 1.1: (x -> 5, i -> 4, res -> True)
+Estado 1.2: (x -> 5, i -> 5, res -> True)
+
+Este programa revisa si x es primo o no, si i == x entonces x es primo.
+
+6)
+
+b)
+La ventaja con esta nueva version es que no tengo que escribir un printf y scanf cada vez que quiero pedirle una varible al usuario. Si, se podia escribir la funcion de min para obtener el menor entre dos numeros y aplicarla dos veces. 
+ 
+Aclaracion: Con respecto al Ejercicio 6b, he decidido reescribir solamente las funciones 1, 2c y 4b debido a que considero que son los programas del proyecto en donde se piden ingresar bastantes variables mientras que en los demas programas no tanto. Habra dos versiones de cada programa: la original y la nueva con las funciones definidas en Entradas.c (se lo denotara con _2ver al final del nombre). 
+
+
+
+

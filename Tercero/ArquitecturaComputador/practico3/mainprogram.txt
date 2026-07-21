@@ -1,0 +1,66 @@
+0000000000000000 <loop-0x40>:
+   0:	8b020020 	add	x0, x1, x2
+   4:	cb050083 	sub	x3, x4, x5
+   8:	aa0800e6 	orr	x6, x7, x8
+   c:	8a0b0149 	and	x9, x10, x11
+  10:	aa090129 	orr	x9, x9, x9
+  14:	8b1c039c 	add	x28, x28, x28
+  18:	d61f0380 	br	x28
+  1c:	00000000 	nop
+  20:	00000000 	nop
+  24:	00000000 	nop
+  28:	00000000 	nop
+  2c:	00000000 	nop
+  30:	00000000 	nop
+  34:	00000000 	nop
+  38:	cb000000 	sub	x0, x0, x0
+  3c:	cb0f01ef 	sub	x15, x15, x15
+
+0000000000000040 <loop>:
+  40:	8b0103e0 	add	x0, xzr, x1
+  44:	f94001ec 	ldr	x12, [x15]
+  48:	cb00018c 	sub	x12, x12, x0
+  4c:	f90001ec 	str	x12, [x15]
+  50:	b4ffff9f 	cbz	xzr, 40 <loop>
+  54:	00000000 	nop
+  58:	00000000 	nop
+  5c:	00000000 	nop
+  60:	00000000 	nop
+  64:	00000000 	nop
+  68:	00000000 	nop
+  6c:	00000000 	nop
+  70:	00000000 	nop
+  74:	00000000 	nop
+  78:	00000000 	nop
+  7c:	00000000 	nop
+  80:	00000000 	nop
+  84:	00000000 	nop
+  88:	00000000 	nop
+  8c:	00000000 	nop
+  90:	00000000 	nop
+  94:	00000000 	nop
+  98:	00000000 	nop
+  9c:	00000000 	nop
+  a0:	00000000 	nop
+  a4:	00000000 	nop
+  a8:	00000000 	nop
+  ac:	00000000 	nop
+  b0:	00000000 	nop
+  b4:	00000000 	nop
+  b8:	00000000 	nop
+  bc:	00000000 	nop
+  c0:	00000000 	nop
+  c4:	00000000 	nop
+  c8:	00000000 	nop
+  cc:	00000000 	nop
+  d0:	00000000 	nop
+  d4:	00000000 	nop
+  d8:	d5384034 	mrs	x20, elr_el1
+  dc:	cb010294 	sub	x20, x20, x1
+  e0:	b4000074 	cbz	x20, ec <invalidOp>
+  e4:	8b0103bd 	add	x29, x29, x1
+  e8:	d69f03e0 	eret
+
+00000000000000ec <invalidOp>:
+  ec:	8b1e03de 	add	x30, x30, x30
+  f0:	d69f03e0 	eret

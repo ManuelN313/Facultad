@@ -1,0 +1,12 @@
+# Omnet Related Files
+/out
+/results
+.settings/
+*.anf
+.cproject
+.oppbuildspec
+.project
+.qtenvrc
+redes23lab4g11
+packet_m.cc
+packet_m.h

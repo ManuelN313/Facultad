@@ -1,0 +1,150 @@
+
+Grafos/2gb.txt
+Sun Apr 30 10:36:00 AM -03 2023
+El mejor coloreo que obtuvimos fue: 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 1736maxresident)k
+0inputs+0outputs (0major+78minor)pagefaults 0swaps
+
+Grafos/4CBQ10.txt
+Sun Apr 30 10:36:00 AM -03 2023
+El mejor coloreo que obtuvimos fue: 50
+1.48user 0.00system 0:01.48elapsed 99%CPU (0avgtext+0avgdata 5232maxresident)k
+0inputs+0outputs (0major+991minor)pagefaults 0swaps
+
+Grafos/64gb.txt
+Sun Apr 30 10:36:01 AM -03 2023
+El mejor coloreo que obtuvimos fue: 3
+0.02user 0.00system 0:00.02elapsed 100%CPU (0avgtext+0avgdata 2012maxresident)k
+0inputs+0outputs (0major+147minor)pagefaults 0swaps
+
+Grafos/8suCBQ10.txt
+Sun Apr 30 10:36:01 AM -03 2023
+El mejor coloreo que obtuvimos fue: 26
+1.40user 0.00system 0:01.41elapsed 100%CPU (0avgtext+0avgdata 4660maxresident)k
+0inputs+0outputs (0major+916minor)pagefaults 0swaps
+
+Grafos/BQSstar1_MM.txt
+Sun Apr 30 10:36:03 AM -03 2023
+El mejor coloreo que obtuvimos fue: 57
+250.93user 0.69system 4:11.80elapsed 99%CPU (0avgtext+0avgdata 1161332maxresident)k
+0inputs+8outputs (0major+293937minor)pagefaults 0swaps
+
+Grafos/C290000K4.txt
+Sun Apr 30 10:40:14 AM -03 2023
+El mejor coloreo que obtuvimos fue: 4
+59.50user 0.18system 0:59.76elapsed 99%CPU (0avgtext+0avgdata 328824maxresident)k
+0inputs+8outputs (0major+82501minor)pagefaults 0swaps
+
+Grafos/CMKv2HKD.txt
+Sun Apr 30 10:41:14 AM -03 2023
+El mejor coloreo que obtuvimos fue: 500
+43.71user 0.09system 0:43.85elapsed 99%CPU (0avgtext+0avgdata 230092maxresident)k
+0inputs+8outputs (0major+57610minor)pagefaults 0swaps
+
+Grafos/GGNM1200.txt
+Sun Apr 30 10:41:58 AM -03 2023
+El mejor coloreo que obtuvimos fue: 2
+235.88user 0.53system 3:56.43elapsed 99%CPU (0avgtext+0avgdata 1627320maxresident)k
+0inputs+8outputs (0major+409360minor)pagefaults 0swaps
+
+Grafos/GGNM1200_unsorted.txt
+Sun Apr 30 10:45:54 AM -03 2023
+El mejor coloreo que obtuvimos fue: 2
+326.91user 0.63system 5:27.78elapsed 99%CPU (0avgtext+0avgdata 1627124maxresident)k
+0inputs+8outputs (0major+409360minor)pagefaults 0swaps
+
+Grafos/Harkon.txt
+Sun Apr 30 10:51:22 AM -03 2023
+El mejor coloreo que obtuvimos fue: 225
+266.93user 0.44system 4:28.16elapsed 99%CPU (0avgtext+0avgdata 506732maxresident)k
+0inputs+8outputs (0major+126430minor)pagefaults 0swaps
+
+Grafos/KD.txt
+Sun Apr 30 10:55:50 AM -03 2023
+El mejor coloreo que obtuvimos fue: 500
+1.66user 0.00system 0:01.66elapsed 99%CPU (0avgtext+0avgdata 4776maxresident)k
+0inputs+0outputs (0major+960minor)pagefaults 0swaps
+
+Grafos/KM.txt
+Sun Apr 30 10:55:52 AM -03 2023
+El mejor coloreo que obtuvimos fue: 1000
+6.19user 0.00system 0:06.20elapsed 99%CPU (0avgtext+0avgdata 14212maxresident)k
+0inputs+0outputs (0major+3336minor)pagefaults 0swaps
+
+Grafos/Octo.txt
+Sun Apr 30 10:55:58 AM -03 2023
+El mejor coloreo que obtuvimos fue: 112
+61.36user 0.12system 1:01.52elapsed 99%CPU (0avgtext+0avgdata 129572maxresident)k
+0inputs+8outputs (0major+32079minor)pagefaults 0swaps
+
+Grafos/PGJ10_500.txt
+Sun Apr 30 10:57:00 AM -03 2023
+El mejor coloreo que obtuvimos fue: 501
+52.81user 0.08system 0:52.90elapsed 99%CPU (0avgtext+0avgdata 288620maxresident)k
+0inputs+8outputs (0major+72381minor)pagefaults 0swaps
+
+Grafos/Q11Q11.tex
+Sun Apr 30 10:57:53 AM -03 2023
+El mejor coloreo que obtuvimos fue: 154
+324.40user 0.41system 5:24.84elapsed 99%CPU (0avgtext+0avgdata 813192maxresident)k
+0inputs+8outputs (0major+203041minor)pagefaults 0swaps
+
+Grafos/Q53.txt
+Sun Apr 30 11:03:17 AM -03 2023
+El mejor coloreo que obtuvimos fue: 63
+4.43user 0.00system 0:04.44elapsed 99%CPU (0avgtext+0avgdata 10180maxresident)k
+0inputs+0outputs (0major+2268minor)pagefaults 0swaps
+
+Grafos/R10.txt
+Sun Apr 30 11:03:22 AM -03 2023
+El mejor coloreo que obtuvimos fue: 13
+0.03user 0.00system 0:00.03elapsed 100%CPU (0avgtext+0avgdata 1788maxresident)k
+0inputs+0outputs (0major+105minor)pagefaults 0swaps
+
+Grafos/R22_93_15.txt
+Sun Apr 30 11:03:22 AM -03 2023
+El mejor coloreo que obtuvimos fue: 7
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 1664maxresident)k
+0inputs+0outputs (0major+80minor)pagefaults 0swaps
+
+Grafos/bxb15_22_10.txt
+Sun Apr 30 11:03:22 AM -03 2023
+El mejor coloreo que obtuvimos fue: 4
+0.07user 0.00system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 2520maxresident)k
+0inputs+0outputs (0major+288minor)pagefaults 0swaps
+
+Grafos/p13qsc.txt
+Sun Apr 30 11:03:22 AM -03 2023
+El mejor coloreo que obtuvimos fue: 1989
+530.97user 0.60system 8:51.71elapsed 99%CPU (0avgtext+0avgdata 1350252maxresident)k
+0inputs+8outputs (0major+341452minor)pagefaults 0swaps
+
+Grafos/pQ5Q5.txt
+Sun Apr 30 11:12:14 AM -03 2023
+El mejor coloreo que obtuvimos fue: 958
+352.59user 0.34system 5:52.98elapsed 99%CPU (0avgtext+0avgdata 1081484maxresident)k
+0inputs+8outputs (0major+273660minor)pagefaults 0swaps
+
+Grafos/pdsc.txt
+Sun Apr 30 11:18:07 AM -03 2023
+El mejor coloreo que obtuvimos fue: 961
+360.02user 0.37system 6:00.60elapsed 99%CPU (0avgtext+0avgdata 1088304maxresident)k
+0inputs+8outputs (0major+275567minor)pagefaults 0swaps
+
+Grafos/pqsc.txt
+Sun Apr 30 11:24:07 AM -03 2023
+El mejor coloreo que obtuvimos fue: 989
+408.71user 0.43system 6:49.31elapsed 99%CPU (0avgtext+0avgdata 1148428maxresident)k
+0inputs+8outputs (0major+290603minor)pagefaults 0swaps
+
+Grafos/q13.corr
+Sun Apr 30 11:30:57 AM -03 2023
+El mejor coloreo que obtuvimos fue: 17
+0.07user 0.00system 0:00.07elapsed 100%CPU (0avgtext+0avgdata 1840maxresident)k
+0inputs+0outputs (0major+126minor)pagefaults 0swaps
+
+Grafos/school1.col
+Sun Apr 30 11:30:57 AM -03 2023
+El mejor coloreo que obtuvimos fue: 14
+0.32user 0.00system 0:00.32elapsed 99%CPU (0avgtext+0avgdata 2380maxresident)k
+0inputs+0outputs (0major+241minor)pagefaults 0swaps

@@ -1,0 +1,23 @@
+CC = gcc
+CFLAGS = -Wall -O3 -DNDEBUG -pedantic -std=c99 -g
+SOURCES =  main.c  EstructuraGrafo23.c
+API_P1 = APIG23.c abb.c
+API_P2 = APIParte2.c tuple.c bitmap.c color_group.c cg_list.c
+OBJECTS = $(SOURCES:.c=.o) $(API_P1:.c=.o) $(API_P2:.c=.o)
+TARGET = greedy
+
+.PHONY: clean
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJECTS) $(LFLAGS) $(LIBS)
+
+.c.o:
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	$(RM) $(OBJECTS) $(TARGET)
+
+testall: $(TARGET)
+	(for file in Grafos/* ; do (echo "\n$$file" ; date; time ./greedy < "$$file") ; done) > tests/test_all.txt 2>&1

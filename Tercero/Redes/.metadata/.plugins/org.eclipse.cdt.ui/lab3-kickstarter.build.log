@@ -1,0 +1,18 @@
+15:54:41 **** Incremental Build of configuration release for project lab3-kickstarter ****
+make MODE=release all 
+Generator.cc
+Generator.cc: In member function ‘virtual void Generator::handleMessage(omnetpp::cMessage*)’:
+Generator.cc:53:5: error: ‘serviceTime’ was not declared in this scope
+   53 |     serviceTime = pkt->getDuration();
+      |     ^~~~~~~~~~~
+Generator.cc:54:16: error: ‘sinTime’ was not declared in this scope
+   54 |     scheduleAt(sinTime()+serviceTime, endServiceEvent);
+      |                ^~~~~~~
+Generator.cc:54:39: error: ‘endServiceEvent’ was not declared in this scope
+   54 |     scheduleAt(sinTime()+serviceTime, endServiceEvent);
+      |                                       ^~~~~~~~~~~~~~~
+make: *** [Makefile:107: out/gcc-release//Generator.o] Error 1
+"make MODE=release all" terminated with exit code 2. Build might be incomplete.
+
+15:54:42 Build Failed. 4 errors, 0 warnings. (took 1s.424ms)
+

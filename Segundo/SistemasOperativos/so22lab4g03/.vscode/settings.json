@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "fat_file.h": "c",
+        "typeinfo": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

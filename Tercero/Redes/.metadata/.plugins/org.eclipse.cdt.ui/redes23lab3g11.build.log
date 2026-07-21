@@ -1,0 +1,8 @@
+18:01:41 **** Incremental Build of configuration release for project redes23lab3g11 ****
+make MODE=release all 
+cd src && make
+make[1]: Entering directory '/home/manuel313/Desktop/Redes/redes23lab3g11/src'
+make[1]: Leaving directory '/home/manuel313/Desktop/Redes/redes23lab3g11/src'
+
+18:01:42 Build Finished. 0 errors, 0 warnings. (took 566ms)
+
